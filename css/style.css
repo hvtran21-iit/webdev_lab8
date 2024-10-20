@@ -1,0 +1,59 @@
+
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+}
+#on-page li {
+  text-decoration: underline overline;
+}
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul {
+  margin: 0;
+  display: block;
+  padding: 0;
+  left: 50%;
+  float: left;
+  list-style-type: none;
+  position: relative;
+}
+#main-navbar ul li {
+  display: block;
+  float: left;
+  position: relative;
+  right: 50%;
+}
+#main-navbar ul li a {
+  padding: 10px 20px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+#sidebar {
+  position: fixed;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+  right:0%;
+}
+#sidebar ul {
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#sidebar-container ul li a {
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
+  color: #fff;
+}
+#sidebar ul li a:hover {
+  background-color: #000;
+}
